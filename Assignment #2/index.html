@@ -69,9 +69,12 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                     <div class="col col-sm-3 align-self-center">
-                        <button type="submit" class="btn btn-primary btn-block btn-warning">
-                            <a href="#reserve">Reserve Table</a>
-                        </button>
+                        <a
+                            role="button"
+                            class="btn btn-primary btn-block btn-warning"
+                            href="#reserve"
+                            id="reservetable"
+                        >Reserve Table</a>
                     </div>
                 </div>
             </header>
@@ -115,7 +118,7 @@
                     per person
                                 </p>
                             </div>
-                            <img class="d-flex img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                            <img class="d-flex img-thumbnail img ml-3 align-self-center" src="img/buffet.png" alt="buffet">
                         </div>
                     </div>
                 </div>
@@ -141,9 +144,9 @@
                 </div>
                 <div class="row row-content justify-content-md-center">
                     <div class="col-12 col-md-8">
-                        <form>
-                            <div class="card">
-                                <p id="reserve"></p>
+                        <a id="reserve"></a>
+                        <div class="card">
+                            <form>
                                 <h3 class="card-header bg-primary text-white bg-warning">Reserve a Table</h3>
                                 <div class="card-body">
                                     <dl class="form-group row">
@@ -238,8 +241,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

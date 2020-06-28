@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+#reservetable {
+  color: black;
+}
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
