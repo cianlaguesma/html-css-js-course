@@ -1,0 +1,56 @@
+#collapseButton > ul {
+  background-color: gray;
+}
+.navbar {
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: gray;
+}
+.navbar .navbar-brand {
+  color: black;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px black solid;
+}
+#collapseButton .nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#collapseButton a {
+  text-decoration: none;
+  color: black;
+}
+#hyperlink {
+  text-decoration: underline;
+}
+#navChicken,
+#navBeef,
+#navSushi {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#navBeef,
+#navSushi {
+  border-top: 0;
+  margin-bottom: 0;
+}
+#navChicken:hover,
+#navBeef:hover,
+#navSushi:hover {
+  background-color: white;
+}
+
+#main {
+  margin-top: 30px;
+  background-color: gray;
+}
+#chickenBody,
+#beefBody,
+#sushiBody {
+  background-color: gray;
+  padding: 0px 5px 5px 5px;
+  width: 100%;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
